@@ -10,7 +10,8 @@ https://www.kaggle.com/noaa/deep-sea-corals
 
 Please note that although this project uses data from NOAA, they do not endorse this project.
 
-# Data Dictionary [Source]
+# Data Dictionary 
+[Source](https://www.kaggle.com/noaa/deep-sea-corals)
 
 CatalogNumber: Unique record identifier assigned by the Deep-Sea Coral Research and Technology Program.
 
