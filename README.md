@@ -11,7 +11,7 @@ https://www.kaggle.com/noaa/deep-sea-corals
 Please note that although this project uses data from NOAA, they do not endorse this project.
 
 # Project Goal
-The goal of this project is to gather insights about coral using the provided data
+The goal of this project is to draw insights about various coral in addition to the facilities and methods used to observe them.
 
 # Data Dictionary 
 [Source](https://www.kaggle.com/noaa/deep-sea-corals)
