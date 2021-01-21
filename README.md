@@ -43,3 +43,10 @@ IdentificationQualifier: Taxonomic identification method and level of expertise.
 SamplingEquipment: Method of data collection. Examples: ROV, submersible, towed camera, SCUBA, etc.
 
 RecordType: Denotes the origin and type of record. published literature ("literature"); a collected specimen ("specimen"); observation from a still image ("still image"); observation from video ("video observation"); notation without a specimen or image ("notation"); or observation from trawl surveys, longline surveys, and/or observer records ("catch record").
+
+# How to Reproduce
+Download data into your working directory. (Link below)
+
+https://www.kaggle.com/noaa/deep-sea-corals
+
+Run the jupyter notebook.
