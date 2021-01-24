@@ -1,5 +1,7 @@
 # Deep Sea Coral Repository
 
+NOTE: This is an ongoing project currently. It will be frequently updated until the current iteration is complete.
+
 # About this project
 
 The data used in this project comes from the National Oceanic and Atmospheric Administration (NOAA) and is free to use as it is within the public domain. The data can found at NOAA's official website or the URL below.
