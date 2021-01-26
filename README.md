@@ -46,6 +46,8 @@ SamplingEquipment: Method of data collection. Examples: ROV, submersible, towed 
 
 RecordType: Denotes the origin and type of record. published literature ("literature"); a collected specimen ("specimen"); observation from a still image ("still image"); observation from video ("video observation"); notation without a specimen or image ("notation"); or observation from trawl surveys, longline surveys, and/or observer records ("catch record").
 
+Gen_Qual_Method: Holds binned values of IdentificationQualifier (video, image, other)
+
 # How to Reproduce
 Download data into your working directory. (Link below)
 
