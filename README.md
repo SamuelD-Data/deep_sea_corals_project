@@ -48,6 +48,8 @@ RecordType: Denotes the origin and type of record. published literature ("litera
 
 Gen_Qual_Method: Holds binned values of IdentificationQualifier (video, image, other)
 
+Depth_Bin: Holds binned values of DepthInMeters. Values are binned by quartiles.
+
 # How to Reproduce
 Download data into your working directory. (Link below)
 
