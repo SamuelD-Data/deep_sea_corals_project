@@ -16,39 +16,46 @@ Please note that although this project uses data from NOAA, they do not endorse 
 The goal of this project is to draw insights about various coral in addition to the facilities and methods used to observe them.
 
 # Data Dictionary 
-[Source](https://www.kaggle.com/noaa/deep-sea-corals)
+[Source of original columns](https://www.kaggle.com/noaa/deep-sea-corals)
+
+OriginalColumn (updated_name_after_prep): definition of data
+
+location_accuracy	repository
 
 CatalogNumber: Unique record identifier assigned by the Deep-Sea Coral Research and Technology Program.
 
-DataProvider: The institution, publication, or individual who ultimately deserves credit for acquiring or aggregating the data and making it available.
+DataProvider (data_provider): The institution, publication, or individual who ultimately deserves credit for acquiring or aggregating the data and making it available.
 
-ScientificName: Taxonomic identification of the sample as a Latin binomial.
+ScientificName (scientific_name): Taxonomic identification of the sample as a Latin binomial.
 
-VernacularNameCategory: Common (vernacular) name category of the organism.
+VernacularNameCategory (vernacular_name_category): Common (vernacular) name category of the organism.
 
-TaxonRank: Identifies the level in the taxonomic hierarchy of the ScientificName term.
+TaxonRank (taxon_rank): Identifies the level in the taxonomic hierarchy of the ScientificName term.
 
-ObservationDate: Time as hh:mm:ss when the sample/observation occurred (UTC).
+ObservationDate (observation_date): Time as hh:mm:ss when the sample/observation occurred (UTC).
 
-Latitude (degrees North): Latitude in decimal degrees where the sample or observation was collected.
+Latitude (latitude): Degrees north; Latitude in decimal degrees where the sample or observation was collected.
 
-Longitude (degrees East): Longitude in decimal degrees where the sample or observation was collected.
+Longitude (longitude): Degrees east; Longitude in decimal degrees where the sample or observation was collected.
 
-DepthInMeters: Best single depth value for sample as a positive value in meters.
+DepthInMeters (depth_meters): Best single depth value for sample as a positive value in meters.
 
-DepthMethod: Method by which best singular depth in meters (DepthInMeters) was determined. "Averaged" when start and stop depths were averaged. "Assigned" when depth was derived from bathymetry at the location. "Reported" when depth was reported based on instrumentation or described in literature.
+DepthMethod (depth_method): Method by which best singular depth in meters (DepthInMeters) was determined. "Averaged" when start and stop depths were averaged. "Assigned" when depth was derived from bathymetry at the location. "Reported" when depth was reported based on instrumentation or described in literature.
 
 Locality: A specific named place or named feature of origin for the specimen or observation (e.g., Dixon Entrance, Diaphus Bank, or Sur Ridge). Multiple locality names can be separated by a semicolon, arranged in a list from largest to smallest area (e.g., Gulf of Mexico; West Florida Shelf, Pulley Ridge).
 
-IdentificationQualifier: Taxonomic identification method and level of expertise. Examples: “genetic ID”; “morphological ID from sample by taxonomic expert”; “ID by expert from image”; “ID by non-expert from video”; etc.
+IdentificationQualifier (identification_qualifier): Taxonomic identification method and level of expertise. Examples: “genetic ID”; “morphological ID from sample by taxonomic expert”; “ID by expert from image”; “ID by non-expert from video”; etc.
 
-SamplingEquipment: Method of data collection. Examples: ROV, submersible, towed camera, SCUBA, etc.
+SamplingEquipment (sampling_equipment): Method of data collection. Examples: ROV, submersible, towed camera, SCUBA, etc.
 
-RecordType: Denotes the origin and type of record. published literature ("literature"); a collected specimen ("specimen"); observation from a still image ("still image"); observation from video ("video observation"); notation without a specimen or image ("notation"); or observation from trawl surveys, longline surveys, and/or observer records ("catch record").
+Repository (repository): Institution that is credited with the observation.
 
-Gen_Qual_Method: Holds binned values of IdentificationQualifier (video, image, other)
+RecordType (record_type): Denotes the origin and type of record. published literature ("literature"); a collected specimen ("specimen"); observation from a still image ("still image"); observation from video ("video observation"); notation without a specimen or image ("notation"); or observation from trawl surveys, longline surveys, and/or observer records ("catch record").
 
-Depth_Bin: Holds binned values of DepthInMeters. Values are binned by quartiles.
+__Engineered Features__
+gen_qual_method: Holds binned values of IdentificationQualifier (video, image, other)
+
+depth_bin: Holds binned values of DepthInMeters. Values are binned by quartiles.
 
 # How to Reproduce
 Download data into your working directory. (Link below)
