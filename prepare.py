@@ -4,8 +4,11 @@ import warnings
 warnings.filterwarnings("ignore")
 
 def prep_corals(df):
+    """
+    Function accepts raw coral DF and returns it prepared for exploration.
+    """
     # dropping specified columns
-    df = df.drop(columns = ['CatalogNumber', 'SampleID', 'SurveyID', 'EventID', 'Station', 'Locality'])
+    df = df.drop(columns = ['CatalogNumber', 'SampleID', 'SurveyID', 'EventID', 'LocationAccuracy', 'Station', 'Locality'])
 
     # dropping all null values
     df = df.dropna()
@@ -15,9 +18,8 @@ def prep_corals(df):
 
     # adding underscores to various column names
     df.columns = ['Data_Provider', 'Scientific_Name', 'Vernacular_Name_Category', 'Taxon_Rank', 
-    'Observation_Date', 'latitude', 'longitude', 'Depth_Meters','Depth_Method', 
-    'Location_Accuracy', 'Repository', 'Identification_Qualifier', 'Sampling_Equipment', 
-    'Record_Type']
+                  'Observation_Date', 'latitude', 'longitude', 'Depth_Meters','Depth_Method', 'Repository', 
+                  'Identification_Qualifier', 'Sampling_Equipment', 'Record_Type']
 
     # lower casing all column names
     df.columns = df.columns.str.lower()
