@@ -1,7 +1,5 @@
 # Deep Sea Coral Repository
 
-NOTE: This is an ongoing project currently. It will be frequently updated until the current iteration is complete.
-
 # About this project
 
 The data used in this project comes from the National Oceanic and Atmospheric Administration (NOAA) and is free to use as it is within the public domain. The data can found at NOAA's official website or the URL below.
@@ -13,9 +11,11 @@ https://www.kaggle.com/noaa/deep-sea-corals
 Please note that although this project uses data from NOAA, they do not endorse this project.
 
 # Project Goal
+
 The goal of this project is to draw insights about various coral in addition to the facilities and methods used to observe them.
 
 # Data Dictionary 
+
 [Source of original columns](https://www.kaggle.com/noaa/deep-sea-corals)
 
 OriginalColumn (updated_name_after_prep): definition of data
@@ -57,7 +57,35 @@ gen_qual_method: Holds binned values of IdentificationQualifier (video, image, o
 
 depth_bin: Holds binned values of DepthInMeters. Values are binned by quartiles.
 
+# Project Plan
+
+- Acquire
+    - Download data from Kaggle and save as CSV file
+    - Import data into Jupyter Notebook via pandas and save as data frame
+
+- Prepare
+    - Prepare data as needed for exploration including but not limited to
+        - Dropping unneeded columns
+        - Converting all string column values to lower case
+        - Updated column names
+            - Convert to lower case
+            - Change spaces ot underscores
+            - Update terms to facilitate understanding
+        - Update data types as needed to facilitate expected operations
+        - Handle null values via imputing or dropping
+        - Convert dates to datetime format if appropriate for exepected operations
+
+- Exploration
+    - Explore data to gather insights about coral and the data related to the methods used to observe them via 
+        - Identifying min/max values of numerical columns
+        - Creating visualizations that represents different facets of the data
+            - Visualizations should include maps that reflect geographic data
+
+- Conclusions
+    - Summarize findings from exploration
+
 # How to Reproduce
+
 Download data into your working directory. (Link below)
 
 https://www.kaggle.com/noaa/deep-sea-corals
