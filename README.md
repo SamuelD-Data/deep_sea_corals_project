@@ -91,3 +91,121 @@ Download data into your working directory. (Link below)
 https://www.kaggle.com/noaa/deep-sea-corals
 
 Run the jupyter notebook.
+
+# Conclusions
+
+### Generally, observations come from clusters around the world, most notably
+- Southwest of Alaska
+- East/Southeast of the U.S.
+- South of Brasil
+- Southeast of China
+- Southeast of Australia
+    
+
+### The 5 institutions that have provided the most data for this data set are
+- Monterey Bay Aquarium Research Institute (31%)
+- NOAA alaska fisheries science center (13%)
+- Hawaii undersea research laboratory (13%)
+- NOAA, Olympic Coast Sanctuary (9%)
+- NOAA, Southwest Center, Santa Cruz (9%)
+    
+    
+### Approximately 46% of all of the data comes from NOAA facilities
+
+
+### The areas of the world where different facilities made their observations can vary immensely
+- NOAA's observations are all near Alaska
+- The Monterey Bay Institute observations are all west of the U.S.
+- The Hawaiian Lab's are unsurprisingly, near Hawaii
+- The other facilities' observations are scattered around the world, namely
+    - East/Southeast of the U.S.
+    - Southof Brasil
+    - Southeast of China
+        
+
+### The dates of the observations range from 1868-05-04 to 2016-03-27
+
+
+### The areas where observations were made also varies greatly between 20-30 year time windows
+- Observations from prior to 1900 are few and mostly to east of the U.S.
+- Observations from 1900 - 1919 are mostly from east and southeast of China
+- Observations from 1920 - 1949 are almost non-existent except for a few north of Brasil
+- Observations from 1950 - 1979 are mostly
+    - Between Brasil and the U.S.
+    - South of Brasil
+    - Southeast of Australia
+- Observations from 1980 - 1999 are sprinkled around Alaska, Brasil, Australia
+- Observations from 2000 and beyond are clustered
+    - Southwest of Alaska
+    - West and southeast of the U.S.
+    - Southeast of Brasil
+    - East of Australia
+
+
+### The depths of the observations range 0 meters to 5303 meters
+
+### Depth values were binned into 4 distinct ranges of depth and the following observations were made with regard to the binned coral's locations
+- The shallowest coral (-.001m to 269m) were mainly found
+    - Southwest of Alaska
+    - Around the southeast coast of the U.S.
+    - South of Brasil
+    - Southeast of China
+    - East of Russia
+
+- Third deepest set of coral (269m to 563m) are scattered around the map with the largest cluster being near Antartica
+
+- Second deepest set of coral (563m to 1089m) are also scattered around the map with no discernablely larger clusters in any particular areas
+
+- Deepest set of coral (1089m to 5303m) were mainly found
+    - To the east and west of the U.S.
+    - Around Hawaii
+    
+
+### There are 10 different types of corals in the data (type in this case refers to vernacular name such as black coral, stone coral, etc.)
+
+
+### The most common corals are as follows
+- Gorgonian corals are the most common (56%)
+- Soft corals are the second most common (16%)
+- Black corals are the third most common (9%)
+- Lace corals are the third most common (8%)
+- All other corals make up 5% or less of the data
+
+
+### The locations of the most common corals are as follows
+- Gorgonian corals were found mostly
+    - South of Brasil
+    - Around Antartica
+    - Scattered around the U.S., including Alaska
+- Soft corals are all west of Alaska
+- Black corals are clustered around the U.S. and west/southwest of the U.S.
+- Lace corals are mostly near Alaska
+    - There are a few smaller clusters near Florida, south of Brasil, and east/southeast of Australia
+    
+
+### The locations of the least common corals are as follows
+- Stony Coral (Branching) were mainly near the northern coast of Brasil and near Florida
+- Stony Coral (Cup) appear in many places, namely
+    - Along the U.S. coasts
+    - South of Brasil
+    - Near Antartica
+    - Southeast of China
+    - East of Australia
+- Stony (Unspecified) were mainly found near Alaska and the eastern coast of the U.S.
+- Gold coral are very uncommon and mainly found near Hawaii
+- Stoloniferan are mainly found near Hawaii
+
+### The most common sampling equipment were as follows
+- Vast majority of samples were collected using a ROV (Remotely Operated Vehicle) (63%)
+- Submersibles were used the second most (20%)
+- All other equipment was used in 6% or less of instances
+
+
+### The most common qualification methods are as follows
+- Videos qualified 70% of observations
+- Images qualified 17% of observations
+- Other methods qualified 12% of observations
+- Combined, roughly 87% of the data was was qualified with either images or video
+
+
+
