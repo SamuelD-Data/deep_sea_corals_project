@@ -86,7 +86,9 @@ depth_bin: Holds binned values of DepthInMeters. Values are binned by quartiles.
 
 # How to Reproduce
 
-Download data into your working directory. (Link below)
+Install prepare.py and/or wrangle.py file(s) into your working directory.
+
+Download the data into your working directory. (Link below)
 
 https://www.kaggle.com/noaa/deep-sea-corals
 
