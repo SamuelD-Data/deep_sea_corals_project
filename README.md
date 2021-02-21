@@ -65,6 +65,7 @@ depth_bin: Holds binned values of DepthInMeters. Values are binned by quartiles.
 
 - Prepare
     - Prepare data as needed for exploration including but not limited to
+        - Remove duplicate rows (all columns should have unique sample ids at minimum)
         - Dropping unneeded columns
         - Converting all string column values to lower case
         - Updated column names

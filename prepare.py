@@ -7,12 +7,13 @@ def prep_corals(df):
     """
     Function accepts raw coral DF and returns it prepared for exploration.
     """
+    
+    # dropping duplicate rows since all rows should have unique sample ids at a minimum
+    df.drop_duplicates(inplace = True)
+    
     # dropping specified columns
     df = df.drop(columns = ['CatalogNumber', 'SampleID', 'SurveyID', 'EventID', 'LocationAccuracy', 
                             'Station', 'Locality', 'DepthMethod', 'ScientificName', 'TaxonRank'])
-
-    # dropping duplicate rows since all rows should have unique sample ids at a minimum
-    df.drop_duplicates(inplace = True)
 
     # dropping all null values
     df = df.dropna()
